@@ -57,7 +57,7 @@ class _PaymentMethodState extends State<PaymentMethodScreen>{
               const SizedBox(height: 20,),
 
               PaymentMethodWidget(
-                icon: const Icon(
+                icon: const FaIcon(
                   FontAwesomeIcons.creditCard,
                   color: Color(0xffCCB375),
                 ),
@@ -69,7 +69,7 @@ class _PaymentMethodState extends State<PaymentMethodScreen>{
               ),
 
               PaymentMethodWidget(
-                icon: const Icon(
+                icon: const FaIcon(
                   FontAwesomeIcons.buildingColumns,
                   color: Color(0xff00A7D9),
                 ),
@@ -81,7 +81,7 @@ class _PaymentMethodState extends State<PaymentMethodScreen>{
               ),
 
               PaymentMethodWidget(
-                icon: const Icon(
+                icon: const FaIcon(
                   FontAwesomeIcons.paypal,
                   color: Color(0xff0D47A1),
                 ),
@@ -93,7 +93,7 @@ class _PaymentMethodState extends State<PaymentMethodScreen>{
               ),
 
               PaymentMethodWidget(
-                icon: const Icon(
+                icon: const FaIcon(
                   FontAwesomeIcons.bitcoin,
                   color: Color(0xff000000),
                 ),
@@ -227,7 +227,7 @@ class PaymentMethodWidget extends StatelessWidget{
   Widget getWidgetState(){
     //Si el icono esta seleccionado
     if(value == selectedValue){
-      return (const Icon(
+      return (const FaIcon(
         FontAwesomeIcons.solidCircleCheck,
         color: Colors.green,
         size: 21,

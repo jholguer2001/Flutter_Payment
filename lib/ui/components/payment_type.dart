@@ -98,7 +98,7 @@ class PaymentMethodWidget extends StatelessWidget{
   Widget getWidgetState(){
     //Si el icono esta seleccionado
     if(value == selectedValue){
-      return (const Icon(
+      return (const FaIcon(
         FontAwesomeIcons.solidCircleCheck,
         color: Colors.green,
         size: 21,

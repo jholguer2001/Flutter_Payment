@@ -47,7 +47,7 @@ class _PaymentDetailsScreenState extends State<PaymentDetailsScreen> {
               const SizedBox(height: 20,),
               Row(
                 children: [
-                  const Icon(FontAwesomeIcons.locationDot),
+                  const FaIcon(FontAwesomeIcons.locationDot),
                   const SizedBox(width: 10),
                   Expanded(
                     child: Container(height: 4,
@@ -58,7 +58,7 @@ class _PaymentDetailsScreenState extends State<PaymentDetailsScreen> {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  const Icon(FontAwesomeIcons.creditCard),
+                  const FaIcon(FontAwesomeIcons.creditCard),
                   const SizedBox(width: 10,),
                   Expanded(
                     child: Container(
